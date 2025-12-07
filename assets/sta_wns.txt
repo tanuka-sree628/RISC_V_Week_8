@@ -1,0 +1,6 @@
+sky130_fd_sc_hd__tt_025C_1v80.lib
+wns max 0.0000
+sky130_fd_sc_hd__ss_n40C_1v40.lib
+wns max -18.0783
+sky130_fd_sc_hd__ff_n40C_1v95.lib
+wns max 0.0000

@@ -1,0 +1,6 @@
+sky130_fd_sc_hd__tt_025C_1v80.lib
+tns max 0.0000
+sky130_fd_sc_hd__ss_n40C_1v40.lib
+tns max -5251.7119
+sky130_fd_sc_hd__ff_n40C_1v95.lib
+tns max 0.0000
