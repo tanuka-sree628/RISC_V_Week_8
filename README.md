@@ -41,12 +41,13 @@ To resolve this issue, the avsdac.lef file was modified to correct the pin-layer
 
 # Final GDSII OUTPUTS:
 - ## Floorplan
-
+![routing](assets/floorplan.png)
 - ## Placement
-
+![routing](assets/placement.png)
 - ## Clock Tree Synthesis
-
+![routing](assets/cts.png)
 - ## Routing
+![routing](assets/routing.png)
 
 # SPEF Generaation:
 ## DEF file creation:
@@ -62,7 +63,6 @@ read_db /home/tanukasree/OpenROAD-flow-scripts/flow/results/sky130hd/vsdbabysoc/
 
 write_def /home/tanukasree/OpenROAD-flow-scripts/flow/results/sky130hd/vsdbabysoc/base/5_route.def
 ```
-The DEF file created :
 
 ## Post route SPEF file generation:
 - Start OpenRoad :
@@ -108,10 +108,7 @@ write_verilog /home/tanukasree/OpenROAD-flow-scripts/flow/designs/sky130hd/vsdba
 ```
 
 ## The generated SPEF file:
-
-
-
-
+![routing](assets/spef.png)
 
 #  Static Timing Analysis:
 
