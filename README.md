@@ -201,11 +201,19 @@ Once the STA completes, results are written to:
 ```
 ## This directory contains detailed reports including:
 
-- Worst Negative Slack (WNS)
+- Worst Negative Slack (WNS) 
 - Total Negative Slack (TNS)
 - Worst setup slack
 - Worst hold slack
-- Timing path details for each PVT corner
+  
+I have attatched these reports in this repository :
+- sta_tns.txt
+- sta_wns.txt
+- sta_worst_max_slack.txt
+- sta_worst_min_slack.txt
+- min_max_sky130_fd_sc_hd__ff_n40C_1v95.lib.txt
+- min_max_sky130_fd_sc_hd__ss_n40C_1v40.lib.txt
+- min_max_sky130_fd_sc_hd__tt_025C_1v80.lib.txt
 
 These results help verify whether the design is timing-clean across all corners and indicate if additional optimization such as resizing, buffering, or routing adjustments is needed.
 
